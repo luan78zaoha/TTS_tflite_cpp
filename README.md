@@ -9,10 +9,14 @@ TTS Demo with tflite model using cpp inference see [C++ Inference Demo](https://
 
 ## Results
 - #### Comparison before and after conversion
+
   - Before conversion (Python)
+
     ![ori_mel](./results/ori_mel.png)
 
+
   - After conversion (C++)
+
     ![tflite_mel](./results/tflite_mel.png)
 
 - #### Adding #3 in text could create pause prosody in audio
